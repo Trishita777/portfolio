@@ -1,0 +1,605 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="height=device-height">
+		<meta author="Revolt">
+		<meta description="Trishita's Portfolio">
+		<meta keywords="Trishita, Mukherjee">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Trishita - Portfolio</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+		<style type="text/css">
+			.small-caps {
+			    -ms-font-feature-settings: "smcp";
+			    -moz-font-feature-settings: "smcp";
+			    -webkit-font-feature-settings: "smcp";
+			    font-feature-settings: "smcp";
+			}
+
+			.text-figures { 
+			    -moz-font-feature-settings: 'onum';
+			    -ms-font-feature-settings: 'onum';
+			    -webkit-font-feature-settings: 'onum';
+			    font-feature-settings: 'onum';
+			}
+
+			body{
+				font-family: 'Merriweather', Georgia, serif;
+				margin: 0;
+				padding: 0;				
+			}
+			h1, h2, h3, h4, h5, h6{
+				font-family: 'Open Sans', sans-serif;
+			}
+			h1{
+				font-size: 48px;
+			}
+			h3{
+				font-size: 24px;
+			}
+			h6{
+				font-size: 22px;
+				font-weight: 300;
+				color: #FFF;
+			}
+			p, .item{
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 1.75;
+			}
+			a{
+				color: #000;
+			}
+			
+			
+			.id_tags{
+				padding: 2px 4px;
+				font-size: 90%;
+				color: rgb(255, 255, 255);
+				background-color: #92898c;
+				border-radius: 4px;
+			}
+			.logo{
+				display: inline-block;
+				position: fixed;
+				left: 10px;
+				top: 10px;
+				z-index: 1000;
+				width: 44px;
+				height: 44px;
+				background: #000;
+				color: #FFF;
+				font-size: 24px;
+				font-weight: 700;
+				text-decoration: none;
+				text-align: center;
+			}
+			.logo:hover{
+				background: #444;
+			}
+			.logo-initial{
+				position: relative;
+				top: 8px;
+			}
+			.special-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				bottom: 5%;
+				z-index: 0;
+			}
+			.special-link{
+				border: 1px solid #888;
+				font-style: italic;
+				text-decoration: none;
+				padding: 5px 20px;
+				display: block;
+				font-family: 'Merriweather', serif;
+				text-align: center;
+				font-size: 14px;
+				border-radius: 3px;
+				margin-bottom: 5px;				
+			}
+			.scroll-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				top: 22%;
+				z-index: 0;
+			}
+			.scroll-menu .scroll-links{ 
+				font-family: 'Open Sans', sans-serif;
+				display: block;
+				text-decoration: none;
+				padding: 10px 0px;
+				font-size: 12px;
+				color: #000;
+				text-align: center;
+				border-bottom: 1px solid #CCC;
+				text-transform: uppercase;
+			}
+			.scroll-menu .scroll-links.last-link{
+				border-bottom: none;
+			}
+			.full-page{
+				width: 100%;
+				height: 100%;
+				z-index: 100;
+				background-color: #FFF;
+				position: relative;
+			}
+
+			.full-page h1, .full-page h6, .full-page a{
+				font-family: Caflisch Script Pro, cursive;
+			}
+
+			.full-page a{
+				text-decoration: none;
+				color: #4B0082;
+			}
+
+			.full-page h1, .full-page h6{
+				margin: 0px;
+			}
+
+			.full-page h1{
+				font-size: 3em;
+				line-height: 1.2em;
+			}
+
+			.full-page h6{
+				font-size: 1em;
+				color: #666;
+			}
+			.uppercase{
+				text-transform: uppercase;
+			}
+
+			.left{
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				float: left;
+				text-align: center;
+			}
+
+			.left.black{
+				background: #000;
+				color: #FFF;
+			}
+
+			.wrapper .container{
+				display: table;
+	   			width: 100%;
+	   			height: 100%;
+			}
+
+			.wrapper .container .dummy{
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				padding: 0px 10%;
+			}
+			.full-page a.button{
+				text-decoration: none;
+				width: 200px;
+				padding: 10px 0px;
+				margin: 10px 0px;
+				border: 1px solid;
+				display: inline-block;
+				text-transform: uppercase;
+			}
+
+			.full-page a.button.white{
+				color: #FFF;
+			}
+
+			.full-page a.button.white:hover{
+				background: #222;
+			}
+			.content{
+				width: 65%;
+				margin: 150px auto;
+			}
+			.item{
+				margin-bottom: 30px;
+			}
+			.item .college-name, .item .skill-type{
+				font-weight: 400;
+			}
+			.item .year-address, .item .skills{
+				color: #444;
+			}
+			.grid-collection .item{
+				margin-bottom: 0px;
+				padding: 20px 0px;
+				border-bottom: 1px solid grey;
+			}
+			.grid-item{
+				position: relative;
+				margin-bottom: 50px;
+			}
+			.grid-item .content-wrapper{
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.4);
+				opacity: 0;
+				transition: opacity .3s ease-out;
+			    -moz-transition: opacity .3s ease-out;
+			    -webkit-transition: opacity .3s ease-out;
+			    -o-transition: opacity .3s ease-out;
+			    text-align: center;
+			}
+			.grid-item:hover .content-wrapper{
+				opacity: 1;
+			}
+			.grid-item .content-wrapper .button{
+				background: #FFF;
+				padding: 10px 25px;
+				color: #000;
+				text-decoration: none;
+				font-family: 'Open Sans', sans-serif;
+				border-radius: 4px;
+				position: relative;
+				top: -40px;
+				-webkit-transition: all 0.3s ease-out;
+				-moz-transition: all 0.3s ease-out;
+				-o-transition: all 0.3s ease-out;
+				-ms-transition: all 0.3s ease-out;
+				transition: all 0.3s ease-out;
+			}
+			.grid-item:hover .content-wrapper .button{
+				top: 50%;
+			}
+			.contacts a{
+				margin-right: 10px;
+			}
+			a.email{
+				text-decoration: none;
+			}
+			.brief{
+				font-size: 14px;
+				margin-top: 5px;
+			}
+			.item .link{
+				margin-top: 5px;
+			}
+
+			.project-title{
+				font-weight: 800;
+				font-size: 18px;
+			}
+			.project-description{
+				    margin-top: 10px;
+				    color: #444;
+				    font-size: 14px;
+				    font-weight: 300;
+			}
+			.project-links{
+				font-size: 14px;
+				font-weight: 800;
+				margin-top: 10px;
+			}
+			.img-circle {
+				border-radius: 50%;
+				object-fit: cover;
+			}
+			/* Small Screens ----------- */
+			@media only screen and (max-width: 767px){
+				.special-menu .special-link{
+					font-size: 12px;
+					padding: 5px;
+				}
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					width: 100%;
+					height: 50%;
+				}
+				.wrapper .container .dummy{
+					padding: 0;
+				}
+			}
+			@media only screen and (max-height: 480px){
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					height: auto;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--TODO: change the logo initial from TT to your initials-->
+		<a href="./index.html" class="logo" title="Home"><span class="logo-initial">TM</span></a>
+		<div class="special-menu">
+			<a href="#top" class="scroll-links special-link">Top</a>
+		</div>
+		<div class="scroll-menu">
+			<a href="#about" class="scroll-links">About</a>
+			<a href="#education" class="scroll-links">Education</a>
+			<a href="#publications" class="scroll-links">Publications</a>
+			<a href="#teachingexperinece" class="scroll-links">Experinece</a>
+			<a href="#projects" class="scroll-links">Projects</a>
+			<!-- <a href="#skills" class="scroll-links">Skills</a> -->
+			<a href="#achievements" class="scroll-links">Achievements</a>
+			<a href="#contact" class="scroll-links last-link">Contact</a>
+		</div>
+
+		<section class="full-page" id="top">
+			<section class="left white wrapper">
+				<div class="container">
+					<div class="dummy">
+						<h1 class="uppercase">Trishita Mukherjee</h1>
+						<h6 class="uppercase">Research Scholar</h6>
+					</div>
+				</div>
+			</section>
+			<section class="left black wrapper">
+				<div class="container">
+					<div class="dummy">
+						<img class="img-circle" src="images/me.jpeg" width="300" height="300">
+						<div><a href="images/resume.pdf" class="button white scroll-links" title="Resume Download" download="trishita-mukherjee.pdf">Download CV</a></div>
+					</div>
+				</div>
+			</section>
+			<div style="clear: both;"></div>
+		</section>
+
+		<section class="content" id="portfolio">
+		
+<!----------------------------------------------------ABOUT-ME START--------------------------------------------------------------------------------------->
+			<h1 class="heading" id="about" name="about">About me</h1>
+			<p>
+				I intend to pursue a career towards building a safe and responsible AI for the future. Leveraging my
+expertise in machine learning and graph theory, I seek to develop novel algorithms and techniques for
+effectively removing sensitive data traces from trained models without compromising performance.
+My research interests are primarily aligned in privacy-preserving Graph Machine Learning and it’s
+applications
+			</p>
+<!----------------------------------------------------ABOUT-ME END--------------------------------------------------------------------------------------->
+
+<!----------------------------------------------------EDUCATION START--------------------------------------------------------------------------------------->				
+			<h1 class="heading" id="education" name="education">Education</h1>
+			
+			<section class="grid-collection">
+				
+				<div class="item">
+					<div class="project-title">Center of Excellence in Artificial Intelligence, Ph.D.(Pursuing)</div>
+					<div class="paper-detail"><b>School/College:</b> Indian Institute of Technology Kharagpur</div>
+					<div class="paper-detail"><b>Area of Research</b> Dynamics of Graph Unlearning: Methods and Applications</div>
+					<div class="paper-detail"><b>Duration:</b> 2023 – 2028</div>
+				</div>
+				
+				<div class="item">
+					<div class="project-title">Computer Science and Technology, Master of Technology</div>
+					<div class="paper-detail"><b>School/College:</b> Jawaharlal Nehru University</div>
+					<div class="paper-detail"><b>CGPA:</b> 8.64/9 (1st rank)</div>
+					<div class="paper-detail"><b>Duration:</b> 2020 – 2022</div>
+				</div>
+				
+				<div class="item">
+					<div class="project-title">Computer Science , Master of Science</div>
+					<div class="paper-detail"><b>School/College:</b> Calcutta University</div>
+					<div class="paper-detail"><b>CGPA:</b> 9.1/10 (3rd rank)</div>
+					<div class="paper-detail"><b>Duration:</b> 2018 – 2020</div>
+				</div>
+
+				<div class="item">
+					<div class="project-title">Computer Science , Bachelor of Science</div>
+					<div class="paper-detail"><b>School/College:</b> St. Xavier’s College, Kolkata</div>
+					<div class="paper-detail"><b>CGPA:</b> 8.52/10</div>
+					<div class="paper-detail"><b>Duration:</b> 2015 – 2018</div>
+				</div>
+
+				<div class="item">
+					<div class="project-title">ISC Board (Science Stream)</div>
+					<div class="paper-detail"><b>School/College:</b> Auxilium Convent School, Dum Dum</div>
+					<div class="paper-detail"><b>CGPA:</b> 96.25% </div>
+					<div class="paper-detail"><b>Duration:</b> 2015</div>
+				</div>
+
+				<div class="item">
+					<div class="project-title">ICSE Board</div>
+					<div class="paper-detail"><b>School/College:</b> Auxilium Convent School, Dum Dum</div>
+					<div class="paper-detail"><b>CGPA:</b> 92% </div>
+					<div class="paper-detail"><b>Duration:</b> 2013</div>
+				</div>
+
+			</section>
+<!----------------------------------------------------EDUCATION END--------------------------------------------------------------------------------------->	
+			
+<!----------------------------------------------------PUBLICATION START--------------------------------------------------------------------------------------->			
+			<h1 class="heading" id="publications" name="publications">Publications</h1>
+	        
+			<!--Paper 1: START-->
+			<div class="item">
+	        	<div class="paper-detail"><i>[Published] </i><span class="authors">Sonali Sen, Trishita Mukherjee, Sunanda Pal, Sumana Ghosh, </span><span class="paper-title"><b>Fraud Pattern
+					Recognition In Banking Sector Using Graph Database,</b> </span><span class="workshop-details"> to <b>IJCSE</b> ( International Journal of
+						Computer Sciences and Engineering, 2018)</span></div>
+	        	<!-- <div class="link">
+	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
+	        	</div> -->
+	        </div>
+			<!--Paper 1: END-->
+			
+			<!--Paper 2: START-->
+			<div class="item">
+	        	<div class="paper-detail"><i>[Published] </i><span class="authors">Trishita Mukherjee and Rajeev Kumar, </span><span class="paper-title"><b> Localized Community-Based Node Anomalies
+					in Complex Networks, In Soft Computing for Problem Solving,</b> </span><span class="workshop-details"> to <b></b> ( Springer Nature Singapore, 2023)</span></div>
+	        	<!-- <div class="link">
+	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
+	        	</div> -->
+	        </div>
+			<!--Paper 2: END-->
+
+<!----------------------------------------------------PUBLICATION END--------------------------------------------------------------------------------------->	
+
+<!----------------------------------------------------TEACHING EXPERIENCE START---------------------------------------------------------------------------------------->
+			<h1 class="heading" id="teachingexperinece" name="teachingsml">Teaching Experinece</h1>
+			<section class="grid-collection">
+				
+				<!--EXPERIENCE 1: START-->
+				<div class="item">
+					<div class="project-title">Teaching Assistant in Machine Learning Foundations and Applications Course
+						(AI42001)</div>
+					<div><code class="id_tags">Spring 2024</code> <code class="id_tags">In Progress</code></div>
+				</div>
+				<!--EXPERIENCE 1: END-->
+				
+				<!--EXPERIENCE 2: START-->
+				<div class="item">
+					<div class="project-title">Teaching Assistant in Machine Learning Foundations and Applications Course
+						(AI42001)</div>
+					<div><code class="id_tags">Autumn 2023</code></div>
+				</div>
+				<!--EXPERIENCE 2: END-->
+			</section>
+<!----------------------------------------------------TEACHING EXPERIENCE END---------------------------------------------------------------------------------------->	
+<!----------------------------------------------------PROJECTS START---------------------------------------------------------------------------------------->	
+
+			<h1 class="heading" id="projects" name="projectsml">Projects</h1>
+			<section class="grid-collection">
+				
+				<!--Project 1: START-->
+				<div class="item">
+					<div class="project-title">Anomaly Detection in Complex Networks (M.Tech Thesis)</div>
+					<div><code class="id_tags">Supervisor – Prof.Rajeev Kumar</code> <code class="id_tags">Jawaharlal Nehru University.</code> <code class="id_tags">2022</code></div>
+					
+					<div class="project-description">Detection of anomalies at node-level and community-level in complex networks by employing
+						community detection methods, graph metrics, community representation learning with
+						feature engineering and unsupervised outlier detection algorithms (DBSCAN, CBLOF and
+						Spectral Clustering). </div>
+					<!-- <div class="project-links">
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Behavioral-Cloning-P3/writeup_template.md" target="_blank">Report</a>; 
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Behavioral-Cloning-P3" target="_blank">Code</a>
+					</div> -->
+				</div>
+				<!--Project 1: END-->
+				
+				<!--Project 2: START-->
+				<div class="item">
+					<div class="project-title">P-Trackchain: Decentralized Application on Automotive Supply Chain</div>
+					<div><code class="id_tags">Supervisor – Prof. Sanjit Setua</code> <code class="id_tags">Calcutta University.</code> <code class="id_tags">2019 – 2020</code></div>
+					
+					<div class="project-description"> Implemented a decentralized blockchain technology application where end to end traceability
+						of parts was introduced in the automobile supply chain and detection of counterfeit of
+						parts.
+						This application is built in ethereum platform with the supporting frameworks of truffle,
+						ganache and metamask. </div>
+					<!-- <div class="project-links">
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Vehicle-Detection-P5/writeup.md" target="_blank">Report</a>; 
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Vehicle-Detection-P5" target="_blank">Code</a>
+					</div> -->
+				</div>
+				<!--Project 2: END-->	
+
+				<!--Project 3: START-->
+				<div class="item">
+					<div class="project-title">Diagnostic Lab Website Development</div>
+					<div><code class="id_tags">Advisor – Prof. Nabendu Chaki</code> <code class="id_tags">Calcutta University.</code> <code class="id_tags">May 2019 – July 2019
+						</code></div>
+					
+					<div class="project-description">Implementation of diagnostic lab working environment through web development using
+						HTML5,CSS,Bootstrap,JavaScript and PHP using Xampp as the localhost server. </div>
+					<!-- <div class="project-links">
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Vehicle-Detection-P5/writeup.md" target="_blank">Report</a>; 
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Vehicle-Detection-P5" target="_blank">Code</a>
+					</div> -->
+				</div>
+
+				<!--Project 4: START-->
+				<div class="item">
+					<div class="project-title">Fraud Pattern Recognition in Banking Sector using Graph Database,</div>
+					<div><code class="id_tags">Prof. Sonali Sen</code> <code class="id_tags"> St. Xavier’s College, Kolkata</code> <code class="id_tags">2017 – 2018</code></div>
+					
+					<div class="project-description">In graph database possible frauds in banking sector like ring fraud(bust out fraud/first party
+						fraud) and credit card fraud is detected, by designing and implementing certain queries. </div>
+					<!-- <div class="project-links">
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Vehicle-Detection-P5/writeup.md" target="_blank">Report</a>; 
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Vehicle-Detection-P5" target="_blank">Code</a>
+					</div> -->
+				</div>
+
+			</section>
+<!----------------------------------------------------PROJECTS END---------------------------------------------------------------------------------------->				
+
+<!--Achievement(Start)-->
+			<h1 class="heading" id="achievements" name="achievementssml">Achievements</h1>
+			<section class="grid-collection">
+
+				<!--Achievement 1: START-->
+				<div class="item">
+					<div class="project-title">UGC-NET exam (held in India) Qualified for Lectureship (top 0.01%).</div>
+					<div><code class="id_tags">Combined 2020 & 2021 session</code></div>
+				</div>
+				<!--Achievement 1: END-->
+				
+				<!--Achievement 2: START-->
+				<div class="item">
+					<div class="project-title">23rd WBSET (held in West Bengal) Qualified for Lectureship (top 0.01%).</div>
+					<div><code class="id_tags">2022</code></div>
+				</div>
+				<!--Achievement 2: END-->	
+
+				<!--Achievement 2: START-->
+				<div class="item">
+					<div class="project-title">UGC NON-NET Fellowship from Jawaharlal Nehru University(JNU).</div>
+					<div><code class="id_tags">2021– 2022</code></div>
+				</div>
+				<!--Achievement 2: END-->
+
+				<!--Achievement 2: START-->
+				<div class="item">
+					<div class="project-title">1st Rank Holder in M.tech in Computer Science and Technology from Jawaharlal
+						Nehru University(JNU).</div>
+					<div><code class="id_tags">2020</code></div>
+				</div>
+				<!--Achievement 2: END-->
+
+				<!--Achievement 2: START-->
+				<div class="item">
+					<div class="project-title">3rd Rank Holder (out of 100 students) in MSc. Computer Science from Calcutta University.</div>
+					<div><code class="id_tags">2020</code></div>
+				</div>
+				<!--Achievement 2: END-->
+			</section>
+
+<!--Achievement(end)-->
+<!----------------------------------------------------SKILLS START---------------------------------------------------------------------------------------->				
+			<!-- <h1 class="heading" id="skills" name="skills">Skills</h1>
+			<div class="item">
+					<div class="paper-detail"><b>Category 1:</b> alpha, beta, gamma</div>
+					<div class="paper-detail"><b>Category 2:</b> alpha, beta, gamma</div>
+					<div class="paper-detail"><b>Category 3:</b> alpha, beta, gamma</div>
+				</div> -->
+
+<!----------------------------------------------------SKILLS END---------------------------------------------------------------------------------------->			
+
+			<h1 class="heading" id="contact" name="contact">Contact</h1>
+			<p class="contacts">
+				<div>
+					<a href="mailto:trishitamukherjee77@gmail.com">Email me</a>
+					<a href="https://github.com/Trishita777" target="_blank">Github</a>
+					<a href="https://in.linkedin.com/in/trishita-mukherjee-00aab5165" target="_blank">LinkedIn</a>
+				</div>
+			</p>
+		</section>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="./assets/thirdparty/scrollTo.min.js"></script>
+	<script>
+		$('.scroll-links').scrollTo();
+	</script>
+</html>
